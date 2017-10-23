@@ -1,0 +1,9 @@
+[template]
+src = "mailit_config.tmpl"
+dest = "/srv/mailit/config.json"
+keys = [
+  "/mailit/host",
+  "/mailit/port",
+  "/mailit/user",
+  "/mailit/password"
+]
